@@ -38,6 +38,7 @@ touch file_{1..3}.txt {js_1,js_2}.json
 mkdir new_1 new_2 new_3
 ls -la
 mv {file_1,file_2}.txt ../folder_3
+
 == esc == : == wq
 == chmod +x script
 == ./script 
